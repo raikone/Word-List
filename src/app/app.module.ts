@@ -5,12 +5,13 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { WordsComponent } from './words/words.component';
-//import { MatCardModule } from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
   imports: [
     BrowserModule,
+    MatCardModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: WordsComponent },
@@ -18,7 +19,6 @@ import { WordsComponent } from './words/words.component';
   ],
   declarations: [
     AppComponent,
-    //MatCardModule,
     WordsComponent
   ],
   bootstrap: [ AppComponent ]
