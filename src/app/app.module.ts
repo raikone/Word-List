@@ -17,6 +17,9 @@ import { MatCardModule } from '@angular/material/card';
       { path: '', component: WordsComponent },
     ])
   ],
+  exports: [
+    MatCardModule,
+  ],
   declarations: [
     AppComponent,
     WordsComponent
