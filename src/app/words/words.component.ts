@@ -11,8 +11,6 @@ export class WordsComponent{
   clase = ['capitalize', 'lower','upper']
   font_base = ['ubuntu', 'anton', 'merriweather']
   font_hand = ['yellowtail', 'dancing', 'indie', 'cedarville', 'sacramento', 'rochester', 'parisienne']
-
-  words = level1;
   
   item = level1[Math.floor(Math.random() * level1.length)];
   tipo = this.clase[Math.floor(Math.random() * this.clase.length)];
@@ -28,8 +26,6 @@ export class WordsComponent{
   }
 
   font = this.get_font();
-  
-
   fuente = this.font[Math.floor(Math.random() * this.font.length)];
   
   
