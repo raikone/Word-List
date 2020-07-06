@@ -1,7 +1,10 @@
+.merriweather { 
+  font-family: 'Merriweather', serif;
+}
+
 .ubuntu { 
   font-family: 'Ubuntu', sans-serif;
 }
-
 .anton {
   font-family: 'Anton', sans-serif;
 }
@@ -12,8 +15,21 @@
 .dancing{
   font-family: 'Dancing Script', cursive;
 }
-
-
+.indie{
+  font-family: 'Indie Flower', cursive;
+}
+.cedarville{
+  font-family: 'Cedarville Cursive', cursive;
+}
+.sacramento {
+  font-family: 'Sacramento', cursive;
+}
+.rochester {
+  font-family: 'Rochester', cursive;
+}
+.parisienne {
+  font-family: 'Parisienne', cursive;
+}
 
 .capitalize {
   text-transform: capitalize;

@@ -1,4 +1,4 @@
-/* Global Styles */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 * {
   font-family: 'Roboto', Arial, sans-serif;
@@ -10,21 +10,20 @@
 
 body {
   margin: 0;
+  text-align: center;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
+.basic-container {
+  padding: 30px;
 }
-
-router-outlet + *  {
-  padding: 0 16px;
-}
-
 /* Text */
 
 h1 {
-  font-size: 60px;
+  font-size: 48px;
+  margin: 5px;
+  min-height: 150px;
+  text-align: center;
+  
 }
 
 h2 {
