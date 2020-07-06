@@ -1,0 +1,26 @@
+.ubuntu { 
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.anton {
+  font-family: 'Anton', sans-serif;
+}
+
+.yellowtail{
+  font-family: 'Yellowtail', cursive;
+}
+.dancing{
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+.capitalize {
+  text-transform: capitalize;
+}
+.upper {
+  text-transform: uppercase;
+}
+.lower {
+  text-transform: lowercase;
+}
